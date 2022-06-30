@@ -1,0 +1,70 @@
+
+
+body{
+    background-color: #f4f0e9;
+}
+
+.opciones{
+    width: 95%;
+    height: 10%;
+    background-color: #d9871c84;
+    position: fixed;
+    margin-top: 30px;
+    left: 70px;
+    border-radius: 5px;
+    box-shadow: -3px 3px 5px 0px rgba(153,137,137,0.34);
+-webkit-box-shadow: -3px 3px 5px 0px rgba(153,137,137,0.34);
+-moz-box-shadow: -3px 3px 5px 0px rgba(153,137,137,0.34);
+    
+}
+
+.Logo{
+    size-adjust: 20%;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 30px; 
+}
+
+.menu{
+    list-style: none;
+    Font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 5vh;
+    margin-top: 4px;
+    margin-left: 100px;
+    display:flex;
+    align-items: flex-end;
+    flex-direction: row;
+    
+}
+
+a:link, a:visited,  a:hover, a:active
+{
+    color: white;
+    text-decoration: none;
+}
+
+.res{
+    position: relative;
+    left: 170px;
+    text-decoration: none;
+}
+
+.ca{
+    position: relative;
+    left: 200px;
+}
+
+.equi{
+    position: relative;
+    left: 230px;
+}
+
+.con{
+    position: relative;
+    left:250px
+}
+
+.menu li :hover{
+    color: #B99C63;
+ }
